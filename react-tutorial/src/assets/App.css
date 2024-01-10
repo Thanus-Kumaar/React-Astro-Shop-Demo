@@ -1,0 +1,24 @@
+.page{
+  padding: 20px 100px 20px 100px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.page-transition-enter {
+  opacity: 0;
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.page-transition-exit {
+  opacity: 1;
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}

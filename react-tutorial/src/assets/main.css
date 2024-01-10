@@ -1,0 +1,8 @@
+.main{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(21, 21, 21);
+}
+body::-webkit-scrollbar{
+  display: none;
+}

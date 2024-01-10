@@ -1,0 +1,22 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  font-family: sans-serif;
+  height: 60px;
+}
+
+.logo{
+  margin-top: 14px;
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-options{
+  margin: 18px 50px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}

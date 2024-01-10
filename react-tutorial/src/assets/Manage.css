@@ -1,0 +1,52 @@
+.manage-div{
+  background-color: black;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.left-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  column-gap: 100px;
+}
+
+.left-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.prod-div-title{
+  margin: 0px 0px 15px;
+  font-size: 25px;
+}
+
+input{
+  margin: 10px 0px 0px 0px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  outline: none;
+  padding: 5px;
+}
+
+.label{
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.form-input{
+  width: 300px;
+  height: 25px;
+}
+
+.add-button{
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  font-weight: 400;
+  margin: 20px 0px 5px 30px;
+}
